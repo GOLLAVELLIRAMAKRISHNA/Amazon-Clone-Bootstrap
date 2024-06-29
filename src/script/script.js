@@ -9,3 +9,7 @@ bars.addEventListener("click", () => {
 xmark.addEventListener("click", () => {
     slider.style.transform = "translateX(-100%)";
 });
+
+document.addEventListener("contextmenu", (event) => {
+    event.preventDefault();
+})
